@@ -71,3 +71,10 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 Mr Blocks 2D Game/Library/PackageCache/com.unity.burst/.Runtime/libburst-llvm-16.dylib
+*.traceevents
+*.traceevents
+*.traceevents
+*.json
+*.digestcache
+*.cm
+*.map
