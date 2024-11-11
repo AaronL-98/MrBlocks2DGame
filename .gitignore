@@ -72,43 +72,8 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 Mr Blocks 2D Game/Library/PackageCache/com.unity.burst/.Runtime/libburst-llvm-16.dylib
 *.traceevents
-*.traceevents
-*.traceevents
 *.json
 *.digestcache
 *.cm
 *.map
-Mr Blocks 2D Game/Library/ArtifactDB
-Mr Blocks 2D Game/Library/Bee/backend1.traceevents
-Mr Blocks 2D Game/Library/Bee/fullprofile.json
-Mr Blocks 2D Game/Library/Bee/tundra.digestcache
-Mr Blocks 2D Game/Library/Bee/TundraBuildState.state.map
-Mr Blocks 2D Game/Library/ilpp.pid
-Mr Blocks 2D Game/Library/PackageManager/Backups/e3ae982b672d/Editor/Converter/U2DToURPPixelPerfectConverter.cs
-Mr Blocks 2D Game/Library/PackageManager/Backups/e3ae982b672d/Editor/PixelPerfectCameraEditor.cs
-Mr Blocks 2D Game/Library/PreviousActionData.bin
-Mr Blocks 2D Game/Library/PreviousActionStack.bin
-Mr Blocks 2D Game/Library/SceneVisibilityState.asset
-Mr Blocks 2D Game/Library/SourceAssetDB
-Mr Blocks 2D Game/Logs/AssetImportWorker0-prev.log
-Mr Blocks 2D Game/Logs/AssetImportWorker0.log
-Mr Blocks 2D Game/Logs/AssetImportWorker1-prev.log
-Mr Blocks 2D Game/Logs/AssetImportWorker1.log
-Mr Blocks 2D Game/Logs/shadercompiler-AssetImportWorker0-0.log
-Mr Blocks 2D Game/Logs/shadercompiler-AssetImportWorker1-0.log
-Mr Blocks 2D Game/Logs/shadercompiler-UnityShaderCompiler.exe-0.log
-Mr Blocks 2D Game/Logs/shadercompiler-UnityShaderCompiler.exe-1.log
-Mr Blocks 2D Game/Logs/shadercompiler-UnityShaderCompiler.exe-10.log
-Mr Blocks 2D Game/Logs/shadercompiler-UnityShaderCompiler.exe-11.log
-Mr Blocks 2D Game/Logs/shadercompiler-UnityShaderCompiler.exe-2.log
-Mr Blocks 2D Game/Logs/shadercompiler-UnityShaderCompiler.exe-3.log
-Mr Blocks 2D Game/Logs/shadercompiler-UnityShaderCompiler.exe-4.log
-Mr Blocks 2D Game/Logs/shadercompiler-UnityShaderCompiler.exe-5.log
-Mr Blocks 2D Game/Logs/shadercompiler-UnityShaderCompiler.exe-6.log
-Mr Blocks 2D Game/Logs/shadercompiler-UnityShaderCompiler.exe-7.log
-Mr Blocks 2D Game/Logs/shadercompiler-UnityShaderCompiler.exe-8.log
-Mr Blocks 2D Game/Logs/shadercompiler-UnityShaderCompiler.exe-9.log
-Mr Blocks 2D Game/Temp/FSTimeGet-277670ee605b0b64d9c29b19be3db3c5
-Mr Blocks 2D Game/Temp/UnityLockfile
-Mr Blocks 2D Game/Temp/workerlic
-Mr Blocks 2D Game/UserSettings/Layouts/default-6000.dwlt
+
