@@ -1,0 +1,20 @@
+[
+  {
+    "MountId": "56e62dd7-241f-41e9-8c6b-dd4ca4513e62",
+    "AncestorCsetIds": [
+      5
+    ],
+    "SourceCsetId": 6,
+    "DestinationCsetId": 5,
+    "FileConflicts": [
+      {
+        "Path": "/Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset",
+        "ItemId": 1024,
+        "ParentItemId": 787,
+        "BaseRevId": 1264,
+        "SourceRevId": 1543,
+        "DestinationRevId": 1264
+      }
+    ]
+  }
+]

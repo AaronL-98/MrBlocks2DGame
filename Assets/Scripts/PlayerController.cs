@@ -7,6 +7,7 @@ public class PlayerController1 : MonoBehaviour
     private bool spaceBarHit = false;
     public GameObject levelCompleteUI;
     public GameObject levelLostPanel;
+    public CameraShake camShaker;
     private bool isGameOver = false;
 
     // Update is called once per frame
@@ -40,19 +41,27 @@ public class PlayerController1 : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.tag == "Door")
+        if(other.gameObject.CompareTag("Door"))
         {
+            Debug.Log("Door Hit");
             levelCompleteUI.SetActive(true);
             isGameOver = true;
         }
-        else if (other.tag == "Enemy")
+        else if (other.gameObject.CompareTag("Enemy"))
         {
             Debug.Log("Enemy Hit");
             levelLostPanel.SetActive(true);
             isGameOver = true;
         }
-
-        return;
+        else if (other.gameObject.CompareTag("Wall"))
+        {
+            Debug.Log("Wall Hit - Cam Shake");
+            // Trigger the camera shake
+            if (camShaker != null)
+            {
+                StartCoroutine(camShaker.Shake(0.5f, 1f));
+            }
+        }
     }
 
 }
